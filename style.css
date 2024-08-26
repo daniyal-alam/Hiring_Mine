@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.anchor-tag {
+  color: #4d3bdb !important;
+}
+
+.cross {
+  width: 30px;
+  height: auto;
+  margin-left: 140px;
+}
+
+.logos {
+  width: 30px;
+  height: auto;
+}
+
+.headingOne {
+  color: #4d3bdb;
+  font-size: 60px;
+}
+
+.techBtn {
+  color: rgb(104, 81, 255);
+  background-color: transparent;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.techBtn:hover {
+  background-color: transparent;
+  color: rgb(104, 81, 255);
+  font-weight: bold;
+  border-color: #4d3bdb;
+}
+
+.bg {
+  background: url(./assets/bg.png);
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cart span {
+  color: #4d3bdb;
+}
+
+.cart2 span {
+  color: #0b0b0c;
+}
+
+.cart2 h1 {
+  color: #4d3bdb;
+}
+
+.cardbox {
+  margin-bottom: 100px;
+}
+
+.card {
+  background-color: #f0eeff;
+}
+
+.card-title {
+  color: #4d3bdb;
+}
+
+.career {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 65px;
+  width: 75%;
+  margin: 25px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 200px;
+  height: 175px;
+  background: linear-gradient(
+    to bottom,
+    #f4f2ff,
+    #ffffff
+  ); /* Gradient background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Spacing inside the card */
+  text-align: center;
+  margin: 15px 0;
+}
+
+.cards h3 {
+  font-size: 18px;
+  color: #4d3bdb;
+  margin: 14px 0;
+}
+
+.cards a img {
+  width: 30px;
+  height: auto;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 65px;
+  /* grid-template-columns: auto auto auto; */
+  width: 75%;
+  margin: 30px 240px;
+}
+
+.jobPosting {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  width: 300px;
+  height: 225px;
+  background: linear-gradient(
+    to bottom,
+    #f4f2ff,
+    #ffffff
+  ); /* Gradient background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Spacing inside the card */
+  text-align: center;
+  margin: 15px 0;
+}
+
+.jobPostingFirst {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.jobPostingSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.jobPostingFirst a img {
+  width: 30px;
+  height: auto;
+}
+
+footer {
+  background-color: #643ee6;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  height: auto;
+  padding: 25px;
+  color: #f4f2ff;
+}
+
+footer .footerLeft {
+  width: 75%;
+  padding: 30px 150px;
+}
+
+footer .footerRight {
+  width: 25%;
+  padding: 25px 80px;
+}
